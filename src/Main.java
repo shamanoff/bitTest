@@ -75,7 +75,7 @@ public class Main {
         display(j1);
         display(j1>>>1);*/
 
-        int x = 10, y = 20;
+     /*   int x = 10, y = 20;
         System.out.println("X= "+x);
         System.out.println("Y= "+y);
 
@@ -86,7 +86,20 @@ public class Main {
         y = x ^ y; // 10=30-20
         x = x ^ y; //20=30-10
         System.out.println("X= "+x);
-        System.out.println("Y= "+y);
+        System.out.println("Y= "+y);*/
 
+        int x = 0b0101;
+        int y = 0b01010;
+        display(x);
+        display(y);
+        x = x ^ y;
+        display(x);
+//        display(y);
+        y=x^y;
+//        display(x);
+        display(y);
+        x=x^y;
+        display(x);
+//        display(y);
     }
 }
